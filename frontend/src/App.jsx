@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "./api/api";
 import logo from "./assets/logo.png";
-import ContactForm from "./components/ContactForm.jsx";
+import ContactForm from "./components/ContactForm";
 import ContactList from "./components/ContactList";
 
 const App = () => {
