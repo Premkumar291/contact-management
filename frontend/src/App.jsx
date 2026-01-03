@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { api } from "./api/api";
 import logo from "./assets/logo.png";
-import ContactForm from "./components/ContactForm";
-import ContactList from "./components/ContactList";
+import ContactForm from "./components/contactForm";
+import ContactList from "./components/contactList";
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
